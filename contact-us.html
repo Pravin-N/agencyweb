@@ -111,7 +111,13 @@
             <div class="col lg-4"></div>
             <div class="col lg-8 md-12 padding-double">
               <div class="w-form">
-                <form id="email-form" name="email-form" data-name="Email Form">
+                <form
+                  id="email-form"
+                  name="email-form"
+                  data-name="Email Form"
+                  action="POST"
+                  data-netlify="true"
+                >
                   <label for="name" class="form-label">Name</label
                   ><input
                     placeholder="Name"
@@ -163,6 +169,9 @@
                     <option value="Second">Second Choice</option>
                     <option value="Third">Third Choice</option></select
                   > -->
+                  <div class="field">
+                    <div data-netlify-recaptcha="true"></div>
+                  </div>
                   <input
                     type="submit"
                     value="Submit"
