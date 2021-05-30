@@ -7444,7 +7444,7 @@ figcaption {
 
 @media screen and (max-width: 991px) {
   .section.is-hero {
-    padding-top: 120px;
+    padding-top: 90px;
     height: auto;
   }
 
