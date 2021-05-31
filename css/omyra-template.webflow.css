@@ -4560,7 +4560,7 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
@@ -5182,6 +5182,14 @@ figcaption {
   margin: 16px 16px;
   border-radius: 8px;
   cursor: pointer;
+}
+
+.icon-service {
+  width: 150px;
+}
+
+.icon-step {
+  width: 128px;
 }
 
 @media (max-width: 991px) {
@@ -6219,6 +6227,42 @@ figcaption {
 }
 
 @media (max-width: 767px) {
+  .size-h1 {
+    font-size: 45px;
+  }
+
+  .c-grid-services__item {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+  }
+
+  .c-grid-services {
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+  }
+
+  .size-h2 {
+    font-size: 28px;
+  }
+
+  .nodisplay-mob {
+    display: none;
+  }
+
+  .icon-service {
+    width: 77px;
+    margin-right: 16px;
+  }
+
+  .c-step {
+    font-size: 80px;
+  }
+
+  .icon-step {
+    width: 77px;
+  }
+
   .container {
     display: -webkit-box;
     display: -webkit-flex;
@@ -7482,6 +7526,17 @@ figcaption {
 }
 
 @media screen and (max-width: 991px) {
+  .flex-horizontal {
+    flex-direction: column;
+  }
+
+  .col.lg-5,
+  .col.lg-6 {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+
   .section.is-hero {
     padding-top: 90px;
     height: auto;
