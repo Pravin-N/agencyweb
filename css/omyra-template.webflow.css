@@ -5145,6 +5145,45 @@ figcaption {
   padding-right: 0px;
 }
 
+.cookie-container p {
+  margin: 24px 0;
+  line-height: 2;
+}
+
+.cookie-container {
+  z-index: 2000;
+  width: 100%;
+  position: fixed;
+  bottom: -100%;
+  left: 0;
+  right: 0;
+  background: #2f3640;
+  color: #f5f6fa;
+  padding: 0 32px;
+  box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
+
+  transition: 400ms;
+}
+
+.cookie-container.active {
+  bottom: 0;
+}
+
+.cookie-container a {
+  color: #f5f6fa;
+}
+
+.cookie-btn {
+  background: #e84118;
+  border: 0;
+  color: #f5f6fa;
+  padding: 12px 48px;
+  font-size: 18px;
+  margin: 16px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
 @media (max-width: 991px) {
   .footer-logo {
     height: 50px;
@@ -5956,7 +5995,7 @@ figcaption {
   .c-nav__close-button {
     position: absolute;
     left: auto;
-    top: 23px;
+    top: 15px;
     right: 18px;
     bottom: auto;
     display: block;
@@ -6033,7 +6072,7 @@ figcaption {
     overflow: scroll;
     height: 100vh;
     min-width: 250px;
-    padding-top: 30px;
+    padding-top: 50px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
