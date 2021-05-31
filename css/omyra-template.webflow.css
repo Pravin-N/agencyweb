@@ -5246,6 +5246,12 @@ figcaption {
     -ms-flex-order: -1;
     order: -1;
   }
+
+  .padding-top-bottom-double {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
   .col.lg-6.no-margin-bottom.md-12.md-order-last {
     -webkit-box-ordinal-group: 2;
     -webkit-order: 1;
@@ -5463,7 +5469,7 @@ figcaption {
     margin-left: 8px;
   }
   .margin-bottom-double {
-    margin-bottom: 32px;
+    margin-bottom: 16px;
   }
   .flexh-space-between.md-flex-vertical {
     -webkit-box-orient: vertical;
@@ -5775,7 +5781,7 @@ figcaption {
     margin-bottom: 32px;
   }
   .no-margin-bottom-lg {
-    margin-bottom: 32px;
+    margin-bottom: 16px;
   }
   .c-gridpost__category.style3 {
     -webkit-align-self: flex-start;
@@ -6171,13 +6177,13 @@ figcaption {
     -ms-transform: none;
     transform: none;
     color: #e6e6e6;
-    font-size: 56px;
+    font-size: 45px;
   }
   .c-shadowing-text.is-white {
     color: #d4d4d4;
   }
   .c-shadowing-text.is-smaller {
-    font-size: 56px;
+    font-size: 45px;
   }
   .c-grid-services {
     -ms-grid-columns: 1fr 1fr;
@@ -6256,7 +6262,7 @@ figcaption {
   }
 
   .c-step {
-    font-size: 80px;
+    font-size: 55px;
   }
 
   .icon-step {
@@ -6627,7 +6633,7 @@ figcaption {
     display: none;
   }
   .c-step {
-    font-size: 80px;
+    font-size: 55px;
   }
   .c-grid-portfolio {
     -ms-grid-columns: 1fr;
@@ -7526,6 +7532,9 @@ figcaption {
 }
 
 @media screen and (max-width: 991px) {
+  .section.is-header {
+    padding-top: 90px;
+  }
   .flex-horizontal {
     flex-direction: column;
   }
