@@ -50,7 +50,7 @@
     />
   </head>
   <body>
-    <header class="navigation-section is-absolute is-transparent nav">
+    <header class="navigation-section position-absolute is-transparent nav">
       <nav class="nav">
         <div class="logo">
           <a href="index.html"
@@ -61,7 +61,7 @@
           <li><a href="index.html" class="c-nav__link">Home</a></li>
           <li><a href="about-us.html" class="c-nav__link">About</a></li>
           <li><a href="portfolio.html" class="c-nav__link">Portfolio</a></li>
-          <li><a href="blog.html" class="c-nav__link">Contact Us</a></li>
+          <li><a href="contact-us.html" class="c-nav__link">Contact Us</a></li>
         </ul>
         <div class="burger">
           <div class="line1"></div>
@@ -138,8 +138,8 @@
       </nav> -->
     </header>
     <div class="section is-hero img-hero flexh-align-center">
-      <div class="container">
-        <div class="col lg-5 md-12">
+      <div class="container hero">
+        <div class="col md-12 hero-text">
           <h1 class="size-h1">
             We Build <span>Websites</span> That Deliver Results.
           </h1>
@@ -520,9 +520,45 @@
       <div class="container is-fullwidth padding-left padding-right">
         <div class="col lg-12 xs-no-padding-left-right">
           <div class="w-layout-grid c-grid-portfolio">
-            <a href="https://www.jbz.ae" target="_blank">
+            <a href="https://www.jbz.ae" target="_blank" class="w-inline-block">
               <img
                 src="images/jbzclient.webp"
+                sizes="(max-width: 479px) 90vw, (max-width: 767px) 87vw, (max-width: 991px) 88vw, 740px"
+                alt=""
+                class="has-shadow has-hover-animation"
+              />
+            </a>
+            <a
+              href="gardening/Homepage01.html"
+              target="_blank"
+              class="w-inline-block"
+            >
+              <img
+                src="images/gardening.jpg"
+                sizes="(max-width: 479px) 90vw, (max-width: 767px) 87vw, (max-width: 991px) 88vw, 740px"
+                alt=""
+                class="has-shadow has-hover-animation"
+              />
+            </a>
+            <a
+              href="construction/index2.html"
+              target="_blank"
+              class="w-inline-block"
+            >
+              <img
+                src="images/construction.jpg"
+                sizes="(max-width: 479px) 90vw, (max-width: 767px) 87vw, (max-width: 991px) 88vw, 740px"
+                alt=""
+                class="has-shadow has-hover-animation"
+              />
+            </a>
+            <a
+              href="interior design\index.html"
+              target="_blank"
+              class="w-inline-block"
+            >
+              <img
+                src="images/interior.png"
                 sizes="(max-width: 479px) 90vw, (max-width: 767px) 87vw, (max-width: 991px) 88vw, 740px"
                 alt=""
                 class="has-shadow has-hover-animation"
@@ -531,6 +567,7 @@
           </div>
         </div>
       </div>
+
       <div class="container">
         <div class="col lg-12">
           <a href="#" class="cta-link text-align-center"

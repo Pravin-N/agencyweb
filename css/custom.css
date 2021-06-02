@@ -24,9 +24,14 @@ nav {
   margin: auto;
 } */
 
-/* .container {
+.container.hero {
+  width: 100%;
   justify-content: space-around;
-} */
+}
+
+.hero-text {
+  width: 50%;
+}
 
 .logo {
   justify-content: center;
@@ -100,8 +105,8 @@ nav {
     right: 0px;
     height: 92vh;
     top: 8vh;
-    background-color: white;
     display: flex;
+    background-color: white;
     flex-direction: column;
     align-items: flex-start;
     justify-content: start;
