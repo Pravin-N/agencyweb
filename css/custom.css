@@ -73,6 +73,28 @@ nav {
   transition: all 0.3s ease;
 }
 
+.flex-horizontal.name {
+  /* flex-direction: column; */
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.c-team1__info.teamnamespace {
+  flex: 0 160px;
+}
+
+.teamcontainer {
+  flex-wrap: nowrap;
+}
+
+.team-photo {
+  width: 300px;
+}
+
+.col.teamsection {
+  margin-bottom: 0px;
+}
+
 @media screen and (max-width: 1100px) {
   .nav-links {
     width: 50%;
@@ -82,6 +104,17 @@ nav {
 @media screen and (max-width: 991px) {
   .c-nav__link {
     border-bottom: 0px;
+  }
+  .quote.style2 {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .team-photo {
+    width: 250px;
+  }
+
+  .c-team1__name {
+    font-size: 25px;
   }
 }
 
@@ -122,6 +155,18 @@ nav {
   }
   .burger {
     display: block;
+  }
+}
+@media screen and (max-width: 767px) {
+  .teamcontainer {
+    flex-wrap: wrap;
+  }
+  .team-photo {
+    width: 200px;
+  }
+
+  .c-team1__name {
+    font-size: 24px;
   }
 }
 
