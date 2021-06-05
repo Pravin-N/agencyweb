@@ -108,13 +108,15 @@ nav {
   .c-nav__link {
     border-bottom: 0px;
   }
-  .quote.style2 {
-    font-size: 16px;
-    font-weight: 300;
-  }
+
   .team-photo {
     width: 250px;
   }
+  .quote.style2 {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
   .c-team1__info.teamnamespace {
     flex: 0 60px;
     margin-left: -70px;
@@ -176,6 +178,10 @@ nav {
   }
   .team-photo {
     width: 200px;
+  }
+  .quote.style2 {
+    font-size: 16px;
+    font-weight: 300;
   }
 
   .c-team1__name {
