@@ -77,7 +77,6 @@ nav {
   /* flex-direction: column; */
   /* align-items: center; */
   justify-content: center;
-  align-items: center;
 }
 
 .c-team1__info.teamnamespace {
@@ -119,6 +118,12 @@ nav {
   .c-team1__info.teamnamespace {
     flex: 0 60px;
     margin-left: -70px;
+  }
+  .flex-horizontal.name {
+    /* flex-direction: column; */
+    /* align-items: center; */
+
+    align-items: center;
   }
 
   /* .teamtitle {
