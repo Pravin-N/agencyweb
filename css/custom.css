@@ -82,7 +82,6 @@ nav {
 
 .c-team1__info.teamnamespace {
   flex: 0 160px;
-  margin-left: -70px;
 }
 
 .teamcontainer {
@@ -101,6 +100,9 @@ nav {
   .nav-links {
     width: 50%;
   }
+  .c-team1__name {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -116,11 +118,9 @@ nav {
   }
   .c-team1__info.teamnamespace {
     flex: 0 60px;
+    margin-left: -70px;
   }
 
-  .c-team1__name {
-    font-size: 25px;
-  }
   /* .teamtitle {
     margin-bottom: 0px;
   } */
