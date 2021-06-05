@@ -77,10 +77,12 @@ nav {
   /* flex-direction: column; */
   /* align-items: center; */
   justify-content: center;
+  align-items: center;
 }
 
 .c-team1__info.teamnamespace {
   flex: 0 160px;
+  margin-left: -70px;
 }
 
 .teamcontainer {
@@ -112,10 +114,16 @@ nav {
   .team-photo {
     width: 250px;
   }
+  .c-team1__info.teamnamespace {
+    flex: 0 60px;
+  }
 
   .c-team1__name {
     font-size: 25px;
   }
+  /* .teamtitle {
+    margin-bottom: 0px;
+  } */
 }
 
 @media screen and (max-width: 891px) {
