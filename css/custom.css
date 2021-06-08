@@ -327,7 +327,7 @@ h3 {
   }
   .svg {
     position: relative;
-    left: -130px;
+    left: -125px;
     top: -30px;
     width: 600px;
     height: 500px;
@@ -336,6 +336,12 @@ h3 {
   .hero {
     align-items: flex-start;
     padding-bottom: 0px;
+  }
+  .hero-text-center {
+    text-align: left;
+  }
+  .xs-is-wrapping {
+    justify-content: left;
   }
 }
 
