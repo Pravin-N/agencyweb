@@ -139,7 +139,7 @@
 }
 
 body {
-  font-family: Metropolis, sans-serif;
+  font-family: Roboto, sans-serif;
   color: #333;
   font-size: 16px;
   line-height: 1.5;
@@ -256,11 +256,6 @@ figcaption {
   align-items: flex-start;
   -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
-}
-
-.hero {
-  max-width: 100%;
-  padding-left: 60px;
 }
 
 .container.wrap {
@@ -595,17 +590,17 @@ figcaption {
 }
 
 .section.is-dark {
-  background-color: #f0f7ff;
-  background-image: linear-gradient(262deg, #f8acb0, #f04b53 73%);
-  color: #fff;
+  background-color: #efeee7;
+  /* background-image: linear-gradient(262deg, #ffe8d6, #ffe8d6 100%); */
+  /* color: #fff; */
 }
 
 .section.bg-accent {
-  background-color: #f7f7f7;
+  background-color: #fff;
 }
 
 .section.bg-accent.position-relative.overflow-hidden {
-  background-color: #f7f7f7;
+  background-color: #fff;
 }
 
 .section.position-relative.has-top-divider {
@@ -617,7 +612,6 @@ figcaption {
 }
 
 .section.bg-dummy-image {
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
   background-position: 0px 0px;
   background-size: auto;
 }
@@ -627,7 +621,6 @@ figcaption {
 }
 
 .section.bg-shade {
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
   background-position: 50% 50%;
   background-size: auto;
 }
@@ -642,7 +635,6 @@ figcaption {
 }
 
 .section.is-header.bg-accent.position-relative.bg-img {
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
   background-position: 100% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -657,10 +649,6 @@ figcaption {
 }
 
 .section.is-header.header-image {
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE"),
-    -webkit-gradient(linear, left top, left bottom, from(#fff9f5), to(#fff9f5));
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE"),
-    linear-gradient(180deg, #fff9f5, #fff9f5);
   background-position: 50% 50%, 0px 0px;
   background-size: cover, auto;
   background-repeat: no-repeat, repeat;
@@ -700,24 +688,23 @@ figcaption {
 
 .section.is-hero {
   height: 100vh;
+  padding-top: 120px;
+  padding-bottom: 0px;
 }
 
 .section.is-hero.flexh-align-center.position-relative.img-hero {
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .section.is-hero.img-hero {
-  background-image: url("../images/Website Design.svg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .section.is-hero.img-hero.flexh-align-bottom {
-  background-image: url("../images/Website Design.svg");
 }
 
 .legend {
@@ -823,7 +810,7 @@ figcaption {
 }
 
 .bg-accent {
-  background-color: #f7f7f7;
+  background-color: #fff;
 }
 
 .button-primary {
@@ -836,7 +823,7 @@ figcaption {
   flex: 0 auto;
   border-radius: 40px;
   background-color: #fdbd28;
-  font-family: Montserrat, sans-serif;
+  font-family: roboto, sans-serif;
   color: #fff;
   font-size: 12px;
   font-weight: 500;
@@ -1277,7 +1264,6 @@ figcaption {
 }
 
 .position-absolute.h100.pos-full.bg-surabaya {
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
   background-position: 0% 100%;
   background-size: 4000px;
   background-repeat: no-repeat;
@@ -1673,7 +1659,6 @@ figcaption {
 
 .text-small.is-bold.trial-bg {
   padding-left: 24px;
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
   background-position: 0% 2px;
   background-size: 16px;
   background-repeat: no-repeat;
@@ -2302,7 +2287,6 @@ figcaption {
 }
 
 .dummy-image1 {
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2520,63 +2504,54 @@ figcaption {
 }
 
 .c-carousel2__content.dummy1 {
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .c-carousel2__content.dummy2 {
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .c-carousel2__content.dummy3 {
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .c-carousel2__content.dummy4 {
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .c-carousel2__content.dummy5 {
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .c-carousel2__content.dummy6 {
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .c-carousel2__content.dummy7 {
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .c-carousel2__content.dummy8 {
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .c-carousel2__content.dummy9 {
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2746,7 +2721,7 @@ figcaption {
   z-index: -1;
   width: 50vw;
   height: 670px;
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
+
   background-position: 0px 0px;
   background-size: auto;
 }
@@ -2857,7 +2832,7 @@ figcaption {
   padding-top: 16px;
   padding-bottom: 16px;
   border-bottom: 1px solid hsla(0, 0%, 60.7%, 0.5);
-  font-family: Montserrat, sans-serif;
+  font-family: roboto, sans-serif;
   color: #9b9b9b;
   font-size: 12px;
   font-weight: 700;
@@ -2954,7 +2929,7 @@ figcaption {
   padding-right: 40px;
   padding-left: 40px;
   border-left-style: none;
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
+
   background-position: 100% 100%, 0% 0%;
   background-size: 32px, 32px;
   background-repeat: no-repeat, no-repeat;
@@ -3061,7 +3036,6 @@ figcaption {
   bottom: 0%;
   width: 50vw;
   height: 100%;
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
   background-position: 100% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3307,7 +3281,6 @@ figcaption {
 
 .fullwidth-image-600 {
   height: 600px;
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
   background-position: 0px 0px;
   background-size: 12px;
 }
@@ -3359,7 +3332,6 @@ figcaption {
 }
 
 .overflow-left.align-lg-2.height-100p.top-0.img-1 {
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
   background-position: 0px 0px;
   background-size: 6px;
 }
@@ -3504,7 +3476,6 @@ figcaption {
 }
 
 .card.img1 {
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -3635,7 +3606,6 @@ figcaption {
   right: 0%;
   bottom: 0%;
   z-index: 0;
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -4090,7 +4060,7 @@ figcaption {
 
 .c-grid1__partner {
   margin-bottom: 8px;
-  font-family: Montserrat, sans-serif;
+  font-family: roboto, sans-serif;
   color: #fff;
   font-size: 11px;
   letter-spacing: 0.1em;
@@ -4107,7 +4077,6 @@ figcaption {
   top: 0%;
   right: 0%;
   bottom: 0%;
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -4481,7 +4450,7 @@ figcaption {
 
 .logotype-2 {
   margin-bottom: 0px;
-  font-family: Montserrat, sans-serif;
+  font-family: roboto, sans-serif;
   color: #1d2b36;
   font-size: 16px;
   font-weight: 600;
@@ -4742,12 +4711,18 @@ figcaption {
   text-transform: uppercase;
 }
 
+.c-shadowing-text {
+  font-family: Integral CF, sans-serif;
+  top: -60px;
+  font-size: 120px;
+}
+
 .c-shadowing-text.is-white {
   color: #fff;
 }
 
 .c-shadowing-text.is-smaller {
-  font-size: 160px;
+  font-size: 120px;
 }
 
 .c-carousel1__content-2 {
@@ -4803,6 +4778,7 @@ figcaption {
 
 .c-grid-services__item {
   padding: 40px;
+  padding-top: 10px;
   background-color: #fff;
   box-shadow: 8px 8px 65px 0 rgba(0, 0, 0, 0.1);
   -webkit-transition: box-shadow 700ms cubic-bezier(0.19, 1, 0.22, 1);
@@ -4834,7 +4810,7 @@ figcaption {
   width: 2000px;
   height: 100%;
   margin-left: -386px;
-  background-color: #f7f7f7;
+  background-color: #efeee7;
   -webkit-transform: translate(-50%, 0px);
   -ms-transform: translate(-50%, 0px);
   transform: translate(-50%, 0px);
@@ -5041,7 +5017,6 @@ figcaption {
 
 .fullwidth-image-601 {
   height: 600px;
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5091,42 +5066,10 @@ figcaption {
 
 .c-grid1__item-2 {
   position: relative;
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
+
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.c-grid1__item-2.img2 {
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
-}
-
-.c-grid1__item-2.img3 {
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
-}
-
-.c-grid1__item-2.img4 {
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
-}
-
-.c-grid1__item-2.img9 {
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
-}
-
-.c-grid1__item-2.img7 {
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
-}
-
-.c-grid1__item-2.img5 {
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
-}
-
-.c-grid1__item-2.img6 {
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
-}
-
-.c-grid1__item-2.img8 {
-  background-image: url("https://via.placeholder.com/1000x600.png?text=IMAGE");
 }
 
 .footer-logo {
@@ -5178,11 +5121,29 @@ figcaption {
 }
 
 .icon-service {
-  width: 150px;
+  width: 200px;
+  height: 200px;
 }
 
 .icon-step {
   width: 128px;
+}
+
+@media screen and (max-width: 1024px) {
+  .section.is-hero {
+    padding-top: 120px;
+    height: auto;
+  }
+  .hero {
+    padding-left: 0px;
+  }
+  .c-grid-services {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  .c-grid-services__item.pull-down {
+    top: 0px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -5449,11 +5410,11 @@ figcaption {
   }
   .section.is-hero.img-hero {
     background-position: 0% 50%;
-    background-size: 3500px;
+    /* background-size: 3500px; */
   }
   .section.is-hero.img-hero.flexh-align-bottom {
     background-position: 0% 100%;
-    background-size: 2160px;
+    /* background-size: 2160px; */
   }
   .margin-bottom {
     margin-bottom: 16px;
@@ -6251,8 +6212,9 @@ figcaption {
   }
 
   .icon-service {
-    width: 77px;
-    margin-right: 16px;
+    width: 150px;
+    height: 150px;
+    margin-right: 25px;
   }
 
   .c-step {
@@ -6395,6 +6357,28 @@ figcaption {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+  }
+  .section.is-header {
+    padding-top: 90px;
+  }
+  .flex-horizontal {
+    flex-direction: column;
+  }
+
+  .col.lg-5,
+  .col.lg-6 {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+
+  .section.is-hero {
+    padding-top: 100px;
+    height: auto;
+  }
+
+  .col.no-margin-bottom-lg.md-12.md-text-align-center {
+    display: none;
   }
 }
 
@@ -7515,40 +7499,7 @@ figcaption {
   grid-column-end: span 1;
 }
 
-@media screen and (max-width: 1024px) {
-  .section.is-hero {
-    padding-top: 120px;
-    height: auto;
-  }
-  .hero {
-    padding-left: 0px;
-  }
-}
-
 @media screen and (max-width: 991px) {
-  .section.is-header {
-    padding-top: 90px;
-  }
-  .flex-horizontal {
-    flex-direction: column;
-  }
-
-  .col.lg-5,
-  .col.lg-6 {
-    -webkit-flex-basis: 100%;
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
-  }
-
-  .section.is-hero {
-    padding-top: 90px;
-    height: auto;
-  }
-
-  .col.no-margin-bottom-lg.md-12.md-text-align-center {
-    display: none;
-  }
-
   #w-node-8c8a059a7817-a47b916a {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
@@ -7890,7 +7841,7 @@ figcaption {
   font-weight: 400;
   font-style: normal;
 }
-@font-face {
+/* @font-face {
   font-family: "Metropolis";
   src: url("../fonts/Metropolis-Black.otf") format("opentype");
   font-weight: 900;
@@ -7912,5 +7863,23 @@ figcaption {
   font-family: "Metropolis";
   src: url("../fonts/Metropolis-Light.otf") format("opentype");
   font-weight: 300;
+  font-style: normal;
+} */
+@font-face {
+  font-family: "Integral CF";
+  src: url("../fonts/IntegralCF-Heavy.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Integral CF";
+  src: url("../fonts/IntegralCF-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Integral CF";
+  src: url("../fonts/IntegralCF-Regular.woff") format("woff");
+  font-weight: 400;
   font-style: normal;
 }

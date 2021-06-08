@@ -5,7 +5,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 8vh;
+  min-height: 7vh;
 }
 
 .nav-div {
@@ -20,6 +20,53 @@ nav {
   width: 100%;
 }
 
+.hero-text-center {
+  text-align: center;
+}
+
+.size-h1,
+h1 {
+  font-family: Integral CF, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.section.is-hero {
+  background-color: #efeee7;
+}
+
+.c-shadowing-text {
+  color: #f6f6f2;
+}
+
+.size-h2,
+h2 {
+  font-family: Integral CF, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: Integral CF, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.hero {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-p {
+  font-size: 20px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 /* .navigation-section {
   margin: auto;
 } */
@@ -30,7 +77,20 @@ nav {
 }
 
 .hero-text {
-  width: 50%;
+  padding-top: 30px;
+  margin-top: 120px;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.xs-is-wrapping {
+  justify-content: center;
+}
+
+.svg {
+  position: relative;
+  bottom: 0px;
 }
 
 .logo {
@@ -83,6 +143,10 @@ nav {
   flex: 0 160px;
 }
 
+.button-primary {
+  font-weight: bold;
+}
+
 .teamcontainer {
   flex-wrap: nowrap;
 }
@@ -95,6 +159,16 @@ nav {
   margin-bottom: 0px;
 }
 
+@media screen and (max-width: 1200px) {
+  .size-h1 {
+    font-size: 60px;
+  }
+  .svg {
+    position: relative;
+    bottom: -10px;
+  }
+}
+
 @media screen and (max-width: 1100px) {
   .nav-links {
     width: 50%;
@@ -102,11 +176,39 @@ nav {
   .c-team1__name {
     font-size: 25px;
   }
+  .size-h1 {
+    font-size: 50px;
+  }
+  .hero-text {
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .hero {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 991px) {
   .c-nav__link {
     border-bottom: 0px;
+  }
+  h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 23px;
   }
 
   .team-photo {
@@ -117,15 +219,17 @@ nav {
     font-weight: 300;
   }
 
-  .c-team1__info.teamnamespace {
-    flex: 0 60px;
-    margin-left: -70px;
-  }
   .flex-horizontal.name {
     /* flex-direction: column; */
     /* align-items: center; */
-
+    flex-direction: column;
     align-items: center;
+  }
+  .col.no-margin-bottom-lg.md-12.md-text-align-center {
+    display: none;
+  }
+  .section.is-hero {
+    height: 800px;
   }
 
   /* .teamtitle {
@@ -144,15 +248,17 @@ nav {
 
   nav {
     justify-content: space-between;
+    background-color: white;
   }
 
   .nav-links {
+    padding-top: 20px;
     z-index: 9999;
     position: fixed;
     top: 0;
     right: 0px;
-    height: 92vh;
-    top: 8vh;
+    height: 93vh;
+    top: 7vh;
     display: flex;
     background-color: white;
     flex-direction: column;
@@ -186,6 +292,20 @@ nav {
 
   .c-team1__name {
     font-size: 24px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  .c-team1__info.teamnamespace {
+    flex: 0 60px;
+    margin-left: -70px;
   }
 }
 
