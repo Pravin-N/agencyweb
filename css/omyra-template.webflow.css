@@ -688,7 +688,7 @@ figcaption {
 
 .section.is-hero {
   height: 100vh;
-  padding-top: 120px;
+  /* padding-top: 120px; */
   padding-bottom: 0px;
 }
 

@@ -53,12 +53,15 @@ h3 {
 }
 
 .hero {
+  width: 100%;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .hero-p {
@@ -179,9 +182,14 @@ h3 {
   .size-h1 {
     font-size: 50px;
   }
+
+  .svg {
+    position: relative;
+    bottom: -40px;
+  }
   .hero-text {
     padding-top: 0px;
-    margin-top: 0px;
+    margin-top: 30px;
     margin-bottom: 0;
     padding-left: 0;
     padding-right: 0;
@@ -227,9 +235,6 @@ h3 {
   }
   .col.no-margin-bottom-lg.md-12.md-text-align-center {
     display: none;
-  }
-  .section.is-hero {
-    height: 800px;
   }
 
   /* .teamtitle {
@@ -306,6 +311,31 @@ h3 {
   .c-team1__info.teamnamespace {
     flex: 0 60px;
     margin-left: -70px;
+  }
+  .hero-text {
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .size-h1 {
+    font-size: 40px;
+  }
+  .svg {
+    position: relative;
+    left: -130px;
+    top: -30px;
+    width: 600px;
+    height: 500px;
+    margin-bottom: 0px;
+  }
+  .hero {
+    align-items: flex-start;
+    padding-bottom: 0px;
   }
 }
 
