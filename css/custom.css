@@ -25,7 +25,9 @@
     color: white;
 }
 
-
+.no-display {
+    display: none;
+}
 
 
 /* .slider {
