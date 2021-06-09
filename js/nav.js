@@ -1,5 +1,5 @@
 $(window).scroll(function () {
-  if ($(this).scrollTop() > 100) {
+  if ($(this).scrollTop() > 30) {
     $(".nav").addClass("sticky");
     $(".nav").removeClass("position-absolute");
   } else {
