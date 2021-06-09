@@ -5441,6 +5441,10 @@ h3 {
   margin-bottom: 1.2rem;
 }
 
+.mar-left {
+  margin-left: 24px;
+}
+
 .container.hero {
   width: 100%;
   justify-content: space-around;
