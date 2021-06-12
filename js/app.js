@@ -17,7 +17,7 @@ gsap.to(".reveal-1", {
 
 gsap.to(".reveal-2", {
   opacity: 1,
-  duration: 1.2,
+  duration: 1.5,
   scrollTrigger: ".reveal-2",
   ease: "power1.out",
   stagger: 0.3,
