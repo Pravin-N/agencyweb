@@ -705,7 +705,6 @@ textarea.w-select {
   .w-container {
     max-width: 728px;
   }
-  
 
   .w-hidden-medium {
     display: none !important;
@@ -3664,6 +3663,13 @@ img {
   text-transform: uppercase;
 }
 
+.video-iframe {
+  margin: auto;
+  padding-bottom: 20px;
+  width: 700px;
+  height: 380px;
+}
+
 .c-shadowing-text {
   font-family: Integral CF, sans-serif;
   top: -60px;
@@ -3707,6 +3713,18 @@ img {
   box-shadow: 8px 8px 65px 0 rgba(0, 0, 0, 0.1);
   -webkit-transition: box-shadow 700ms cubic-bezier(0.19, 1, 0.22, 1);
   transition: box-shadow 700ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.reveal-1,
+.reveal-2 {
+  opacity: 0;
+}
+
+.reveal-3,
+.reveal-4,
+.reveal-5,
+.reveal-6 {
+  opacity: 0;
 }
 
 .c-grid-services__item:hover {
@@ -4012,8 +4030,8 @@ img {
 }
 
 .icon-service {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
 }
 
 .icon-step {
@@ -4986,9 +5004,17 @@ img {
     height: 700px;
   }
 
+  .video-iframe {
+    padding-bottom: 20px;
+    width: 450px;
+    height: 250px;
+  }
+
   .c-grid-services__item {
     display: flex;
-    padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
     align-items: center;
   }
 
@@ -5006,8 +5032,8 @@ img {
   }
 
   .icon-service {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     margin-right: 25px;
   }
 
@@ -5373,9 +5399,6 @@ nav {
   min-height: 7vh;
 }
 
-
-
-
 .sticky {
   position: fixed;
   top: 0;
@@ -5498,7 +5521,7 @@ h3 {
 }
 
 .cross .line1 {
-  transform: rotate(-45deg) translate(-5px,6px);
+  transform: rotate(-45deg) translate(-5px, 6px);
 }
 
 .cross .line2 {
@@ -5506,7 +5529,7 @@ h3 {
 }
 
 .cross .line3 {
-  transform: rotate(45deg) translate(-5px,-6px);
+  transform: rotate(45deg) translate(-5px, -6px);
 }
 
 .burger {
@@ -5572,6 +5595,11 @@ h3 {
     width: 50%;
   }
 
+  .icon-service {
+    width: 160px;
+    height: 160px;
+  }
+
   .c-team1__name {
     font-size: 25px;
   }
@@ -5601,6 +5629,11 @@ h3 {
 @media screen and (max-width: 991px) {
   .c-nav__link {
     border-bottom: 0px;
+  }
+
+  .icon-service {
+    width: 140px;
+    height: 140px;
   }
 
   h1 {
@@ -5750,10 +5783,6 @@ h3 {
     align-items: flex-start;
     padding-bottom: 0px;
   }
-
-
-
-
 }
 
 .nav-active {
