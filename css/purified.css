@@ -4030,8 +4030,8 @@ img {
 }
 
 .icon-service {
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
 }
 
 .icon-step {
@@ -5596,8 +5596,8 @@ h3 {
   }
 
   .icon-service {
-    width: 160px;
-    height: 160px;
+    width: 120px;
+    height: 120px;
   }
 
   .c-team1__name {
@@ -5632,8 +5632,8 @@ h3 {
   }
 
   .icon-service {
-    width: 140px;
-    height: 140px;
+    width: 100px;
+    height: 100px;
   }
 
   h1 {
@@ -5719,6 +5719,11 @@ h3 {
 @media screen and (max-width: 767px) {
   .teamcontainer {
     flex-wrap: wrap;
+  }
+
+  .icon-service {
+    width: 90px;
+    height: 90px;
   }
 
   .team-photo {
