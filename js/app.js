@@ -7,21 +7,21 @@ tl.to(".intro-text", 0.19, { color: "transparent" }, "-=0.19");
 tl.to(".intro", 0, { display: "none" });
 tl.to(".cover", 0, { display: "none" });
 
-gsap.to(".reveal-1", {
-  opacity: 1,
-  duration: 1.2,
-  scrollTrigger: ".reveal-1",
-  ease: "power1.out",
-  stagger: 0.3,
-});
+// gsap.to(".reveal-1", {
+//   opacity: 1,
+//   duration: 1.2,
+//   scrollTrigger: ".reveal-1",
+//   ease: "power1.out",
+//   stagger: 0.3,
+// });
 
-gsap.to(".reveal-2", {
-  opacity: 1,
-  duration: 1.5,
-  scrollTrigger: ".reveal-2",
-  ease: "power1.out",
-  stagger: 0.3,
-});
+// gsap.to(".reveal-2", {
+//   opacity: 1,
+//   duration: 1.5,
+//   scrollTrigger: ".reveal-2",
+//   ease: "power1.out",
+//   stagger: 0.3,
+// });
 
 gsap.to(".reveal-3", {
   opacity: 1,
