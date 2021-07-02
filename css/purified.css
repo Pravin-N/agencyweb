@@ -3715,10 +3715,10 @@ img {
   transition: box-shadow 700ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-.reveal-1,
+/* .reveal-1,
 .reveal-2 {
   opacity: 0;
-}
+} */
 
 .reveal-3,
 .reveal-4,
